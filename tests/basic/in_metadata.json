@@ -1,16 +1,15 @@
 [
     {
-        "_id": "unique_file_id_5e14abe0a37012.29503907",
-        "file_path": "/home/${USER}/vre_sample_tool/tests/basic/NA12878.bam",
-        "file_type": "BAM",
-        "data_type": "data_chip_seq",
-        "compressed": 0,
+        "_id": "unique_file_id_5e14abe0a37012.29503905",
+        "file_path": "/home/victor/vre_sample_tool/tests/basic/image1.nii.gz",
+        "file_type": "NIFTI",
+        "data_type": "bioimage",
+        "compressed": "GZ",
         "user_id": "user_id",
         "creation_time": {
             "sec": 1578413024,
             "usec": 0
         },
-        "taxon_id": "9606",
         "meta_data": {
             "type": "file",
             "size": 0,
@@ -23,26 +22,21 @@
             "lastAccess": {
                 "sec": 1578413024,
                 "usec": 0
-            },
-            "taxon_id": "9606",
-            "assembly": "hg38",
-            "paired": "paired",
-            "sorted": "sorted"
+            }
         },
         "sources": []
     },
-    {
-        "_id": "unique_file_id_5e14abe0a37012.29503908",
-        "file_path": "/home/${USER}/vre_sample_tool/tests/basic/hg38.fa",
-        "file_type": "FASTA",
-        "data_type": "data_chip_seq",
-        "compressed": 0,
+     {
+        "_id": "unique_file_id_5e14abe0a37012.29503906",
+        "file_path": "/home/victor/vre_sample_tool/tests/basic/image2.nii.gz",
+        "file_type": "NIFTI",
+        "data_type": "bioimage",
+        "compressed": "GZ",
         "user_id": "user_id",
         "creation_time": {
             "sec": 1578413024,
             "usec": 0
         },
-        "taxon_id": "9606",
         "meta_data": {
             "type": "file",
             "size": 0,
@@ -55,11 +49,63 @@
             "lastAccess": {
                 "sec": 1578413024,
                 "usec": 0
+            }
+        },
+        "sources": []
+    },
+    
+    {
+        "_id": "unique_file_id_5e14abe0a37012.29503907",
+        "file_path": "/home/victor/vre_sample_tool/tests/basic/image3.nii.gz",
+        "file_type": "NIFTI",
+        "data_type": "bioimage",
+        "compressed": "GZ",
+        "user_id": "user_id",
+        "creation_time": {
+            "sec": 1578413024,
+            "usec": 0
+        },
+        "meta_data": {
+            "type": "file",
+            "size": 0,
+            "project": "my_project_id",
+            "atime": {
+                "sec": 1578413024,
+                "usec": 0
             },
-            "taxon_id": "9606",
-            "assembly": "hg38",
-            "paired": "paired",
-            "sorted": "sorted"
+            "parentDir": "unique_file_id_5e14abe0a37742.64003100",
+            "lastAccess": {
+                "sec": 1578413024,
+                "usec": 0
+            }
+        },
+        "sources": []
+    },    
+    
+    {
+        "_id": "unique_file_id_5e14abe0a37012.29503908",
+        "file_path": "/home/victro/models/model1",
+        "file_type": "TXT",
+        "data_type": "deep_learning_model",
+        "compressed": 0,
+        "user_id": "user_id",
+        "creation_time": {
+            "sec": 1578413024,
+            "usec": 0
+        },
+        "meta_data": {
+            "type": "dir",
+            "size": 0,
+            "project": "my_project_id",
+            "atime": {
+                "sec": 1578413024,
+                "usec": 0
+            },
+            "parentDir": "unique_file_id_5e14abe0a37742.64003100",
+            "lastAccess": {
+                "sec": 1578413024,
+                "usec": 0
+            }
         },
         "sources": []
     }
