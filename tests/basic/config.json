@@ -2,6 +2,18 @@
     "input_files": [
         {
             "name": "images",
+            "value": "unique_file_id_5e14abe0a37012.29503905",
+            "required": true,
+            "allow_multiple": true
+        },
+        {
+            "name": "images",
+            "value": "unique_file_id_5e14abe0a37012.29503906",
+            "required": true,
+            "allow_multiple": true
+        },
+        {
+            "name": "images",
             "value": "unique_file_id_5e14abe0a37012.29503907",
             "required": true,
             "allow_multiple": true
