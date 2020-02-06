@@ -1,13 +1,13 @@
 {
     "input_files": [
         {
-            "name": "input_reads",
+            "name": "images",
             "value": "unique_file_id_5e14abe0a37012.29503907",
             "required": true,
-            "allow_multiple": false
+            "allow_multiple": true
         },
         {
-            "name": "indexed_reference_fasta",
+            "name": "model",
             "value": "unique_file_id_5e14abe0a37012.29503908",
             "required": true,
             "allow_multiple": false
@@ -16,41 +16,28 @@
     "arguments": [
         {
             "name": "execution",
-            "value": "/home/${USER}/vre_sample_tool/tests/basic/run000"
+            "value": "/home/victor/vre_sample_tool/tests/basic/run000"
         },
         {
             "name": "project",
             "value": "my_project_id"
         },
         {
-            "name": "biospecimen_name",
+            "name": "myArgument",
             "value": "hg38"
-        },
-        {
-            "name": "output_basename",
-            "value": "mytest"
-        },
-        {
-            "name": "cwl_wf_url",
-            "value": "https://raw.githubusercontent.com/inab/vre_cwl_executor/master/tests/basic/data/workflows/basic_example.cwl"
-        },
-        {
-            "name": "cwl_wf_tag",
-            "value": "50f852c3aa97462d25a6c9d330565fdb77d14199"
         }
     ],
     "output_files": [
         {
-            "name": "bam_file",
+            "name": "masks",
             "required": true,
-            "allow_multiple": false,
+            "allow_multiple": true,
             "file": {
-                "file_path": "/home/${USER}/vre_sample_tool/tests/basic/run000/A.bam",
-                "file_type": "BAM",
-                "data_type": "data_chip_seq",
+                "file_type": "NIFTI",
+                "data_type": "image_mask",
                 "meta_data": {
                     "visible": true,
-                    "description": "Splitted unaligned BAMs"
+                    "description": "Biomimage Mask"
                 }
             }
         }
